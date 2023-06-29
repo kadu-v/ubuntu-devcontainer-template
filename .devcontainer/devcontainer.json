@@ -1,0 +1,9 @@
+{
+    "name": "Ubuntu 22.04 dev",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "remoteUser": "vscode",
+    "runArgs": [],
+    "workspaceFolder": "/workspaces"
+}
