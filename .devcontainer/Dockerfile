@@ -7,9 +7,9 @@ ENV NVIDIA_DRIVER_CAPABILITIES graphics
 
 
 
-RUN  apt update \
-    && apt install -y sudo \
-    && apt install -y xxd wget curl git xz-utils zip unzip --no-install-recommends 
+RUN apt-get update \
+    && apt-get install -y sudo \
+    && apt-get install -y xxd wget curl git xz-utils zip unzip --no-install-recommends 
 
 # Clean Up
 RUN	apt-get autoremove -y \
