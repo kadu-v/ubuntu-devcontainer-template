@@ -5,11 +5,18 @@ ENV LANG C.UTF-8
 ENV TZ Asia/Tokyo
 ENV NVIDIA_DRIVER_CAPABILITIES graphics
 
-
-
 RUN apt-get update \
-    && apt-get install -y sudo \
-    && apt-get install -y xxd wget curl git xz-utils zip unzip --no-install-recommends 
+    && apt-get install -y \
+    sudo \
+    xxd \
+    wget \
+    curl \
+    git \
+    xz-utils \
+    zip \
+    unzip \
+    ca-certificates \
+    --no-install-recommends 
 
 # Clean Up
 RUN	apt-get autoremove -y \
