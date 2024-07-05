@@ -17,12 +17,12 @@
         }
     },
     "features": {
-        "common": {
+        "ghcr.io/devcontainers/features/common-utils:2": {
             "username": "vscode",
             "uid": "automatic",
             "gid": "automatic",
             "installZsh": true,
-            "installOhMyZsh": false,
+            "installOhMyZsh": true,
             "upgradePackages": false,
             "nonFreePackages": false
         }
