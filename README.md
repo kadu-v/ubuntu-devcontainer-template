@@ -1,1 +1,1 @@
-# ubuntu-devcontainer-templete
+# ubuntu-devcontainer-template
