@@ -25,6 +25,10 @@
             "installOhMyZsh": true,
             "upgradePackages": false,
             "nonFreePackages": false
+        },
+        "ghcr.io/devcontainers-extra/features/zsh-plugins:0": {
+            "plugins": "zsh-autosuggestions zsh-syntax-highlighting",
+            "omzPlugins": "https://github.com/zsh-users/zsh-autosuggestions.git https://github.com/zsh-users/zsh-syntax-highlighting.git"
         }
     }
 }
